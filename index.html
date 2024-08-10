@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Cuentas Streaming</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .contact-button {
+            background-color: #0088cc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .contact-button:hover {
+            background-color: #007bb5;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .product {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .product h2 {
+            margin: 0;
+        }
+
+        .product p {
+            color: #666;
+        }
+
+        .buy-button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .buy-button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div><h2>Tienda de Cuentas Streaming</h2></div>
+        <div>
+            <button class="contact-button" onclick="contactarVendedor()">Contactar por Telegram</button>
+        </div>
+    </header>
+
+    <main>
+        <h1>Bienvenido a nuestra tienda</h1>
+        <p>Compra cuentas de streaming de manera segura y fácil.</p>
+
+        <div class="product">
+            <h2>Cuenta Netflix Premium</h2>
+            <p>Disfruta de todo el contenido en alta definición.</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+
+        <div class="product">
+            <h2>Cuenta Spotify Premium</h2>
+            <p>Escucha música sin anuncios y con alta calidad.</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+
+        <!-- Agrega más productos según sea necesario -->
+    </main>
+
+    <script>
+        function contactarVendedor() {
+            window.location.href = 'https://t.me/victor20227';
+        }
+    </script>
+</body>
+</html>
